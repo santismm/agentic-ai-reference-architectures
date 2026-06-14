@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="'Inter','Segoe UI',system-ui,sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#1b2336" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="#070a13"/>
+  <rect width="1280" height="640" fill="url(#grid)" opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="6" fill="url(#g)"/>
+
+  <text x="80" y="150" fill="#5d6b85" font-family="'JetBrains Mono',monospace" font-size="22" letter-spacing="4">REFERENCE ARCHITECTURE</text>
+
+  <text x="78" y="248" fill="#f8fafc" font-size="74" font-weight="800" letter-spacing="-2">Agentic AI</text>
+  <text x="80" y="330" fill="url(#g)" font-size="74" font-weight="800" letter-spacing="-2">Reference Architectures</text>
+
+  <text x="80" y="404" fill="#dbe2ee" font-size="30">Planning · Tools · Memory · Evaluation · HITL · Observability</text>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="20">
+    <rect x="80" y="450" width="150" height="42" rx="8" fill="#0f1525" stroke="#2a3550"/>
+    <text x="155" y="477" text-anchor="middle" fill="#22d3ee">runs offline</text>
+    <rect x="246" y="450" width="160" height="42" rx="8" fill="#0f1525" stroke="#2a3550"/>
+    <text x="326" y="477" text-anchor="middle" fill="#3b82f6">tested in CI</text>
+    <rect x="422" y="450" width="210" height="42" rx="8" fill="#0f1525" stroke="#2a3550"/>
+    <text x="527" y="477" text-anchor="middle" fill="#10b981">provider-agnostic</text>
+  </g>
+
+  <line x1="80" y1="556" x2="1200" y2="556" stroke="#1b2336" stroke-width="1.5"/>
+  <text x="80" y="592" fill="#f8fafc" font-size="24" font-weight="700">Santiago Santa María Morales</text>
+  <text x="80" y="592" dx="320" fill="#93a1b8" font-size="24">· Head of AI FDE LATAM, Google Cloud</text>
+  <text x="1200" y="592" text-anchor="end" fill="#22d3ee" font-family="'JetBrains Mono',monospace" font-size="22">santismm.com</text>
+</svg>

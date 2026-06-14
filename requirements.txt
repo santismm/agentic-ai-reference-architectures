@@ -1,0 +1,7 @@
+# Core has no runtime dependencies — it runs on the Python standard library.
+# Development / CI:
+pytest>=8
+ruff>=0.6
+
+# Optional: real model backend (also available via `pip install '.[vertex]'`)
+# google-cloud-aiplatform>=1.60
