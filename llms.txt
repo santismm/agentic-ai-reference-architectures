@@ -1,0 +1,13 @@
+# agentic-ai-reference-architectures
+
+> Enterprise AI reference architectures — end-to-end agentic system blueprints with reference scenarios, KPIs, failure modes and lessons.
+
+Generated from https://santismm.com — the single source of truth. Do not edit by hand.
+
+## Architectures
+
+- [ARCH-004 AI Workforce](architectures/ai-workforce.md) — canonical: https://santismm.com/en/architectures/ai-workforce
+- [ARCH-001 Customer Service Agent](architectures/customer-service-agent.md) — canonical: https://santismm.com/en/architectures/customer-service-agent
+- [ARCH-002 Enterprise Knowledge Assistant](architectures/enterprise-knowledge-assistant.md) — canonical: https://santismm.com/en/architectures/enterprise-knowledge-assistant
+- [ARCH-005 Operations Center](architectures/operations-center.md) — canonical: https://santismm.com/en/architectures/operations-center
+- [ARCH-003 Sales Copilot](architectures/sales-copilot.md) — canonical: https://santismm.com/en/architectures/sales-copilot
